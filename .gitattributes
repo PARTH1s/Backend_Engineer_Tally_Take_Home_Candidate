@@ -1,0 +1,6 @@
+# Source files: always LF, on every OS.
+* text=auto eol=lf
+
+# Fixtures are byte-exact test inputs (SHA-256 identity, BOMs, UTF-16): never convert.
+fixtures/** -text
+*.xml -text
